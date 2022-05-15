@@ -16,10 +16,10 @@ Account created successfully! Your account number is: {client.account_number}'''
                 print('''
 Authentication successful!''')
                 return client
-
-        print('''
+            else:
+                print('''
 Authentication failed!
 Reason: account not found.''')
-        return None
+                return None
 
         
